@@ -3,7 +3,7 @@ from team_locating import team_search
 
 
 def get_new_team(teams: list) -> None:
-    # לפרק לפונקציות של קבלת מספר ושל חיפוש
+    # לפרק לפונקציות של קבלת מספר ושל חיפוש ולעשות ביחד עם הוספת משחקים
     while True:
         team_id = get_team_id('Enter team id:')
         if not team_search(teams ,team_id):
